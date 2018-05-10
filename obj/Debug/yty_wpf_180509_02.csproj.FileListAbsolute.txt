@@ -12,3 +12,5 @@ C:\Users\Administrator\Documents\Visual Studio 2015\Projects\yty_wpf_180508_01\y
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180509_02\obj\Debug\yty_wpf_180509_02.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180509_02\obj\Debug\yty_wpf_180509_02.exe
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180509_02\obj\Debug\yty_wpf_180509_02.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180509_02\obj\Debug\about_windows.g.cs
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\yty_wpf_180508_01\yty_wpf_180509_02\obj\Debug\about_windows.baml

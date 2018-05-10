@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:yty_wpf_180509_02"
         mc:Ignorable="d"
-        Title="菜单窗口" Height="350" Width="525">
+        WindowState="Maximized"
+        Title="菜单窗口" Height="350" Width="525" Name="MenuWindow">
     <Grid>
-        
+
         <!--MenuItem的创建使用(StackPanel布局)-->
         <!--<StackPanel>
             <Menu Name="m1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="18">
@@ -54,23 +55,34 @@
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="文件">
                     <MenuItem Header="打开"></MenuItem>
+                    <MenuItem Header="关闭" Click="MenuItem_Click_1"></MenuItem>
                 </MenuItem>
                 <MenuItem Header="编辑">
                     <MenuItem Header="复制"></MenuItem>
                 </MenuItem>
                 <MenuItem Header="视图"></MenuItem>
                 <MenuItem Header="帮助">
-                    <MenuItem Header="关于"></MenuItem>
+                    <MenuItem Header="关于" Click="MenuItem_Click"></MenuItem>
                 </MenuItem>
             </Menu>
-            <ToolBar DockPanel.Dock="Top">
-                <Button Content="保存"></Button>
-                <Button Content="新建"></Button>
-                <CheckBox Content="自动保存"></CheckBox>
-                <TextBox ></TextBox>
+            <ToolBar DockPanel.Dock="Top" Height="26">
+                <Button >
+                    <Button.Content>
+                        <Image Source="/img/2.ico" Height="15" Width="25"></Image>
+                    </Button.Content>
+                </Button>
+                <Button>
+                    <Button.Content>
+                        <Image Source="/img/1.ico" Height="16" Width="25"></Image>
+                    </Button.Content>
+                </Button>
+                <CheckBox >
+                    <Image Source="/img/3.ico" Height="16" Width="25"></Image>
+                </CheckBox>
+                
             </ToolBar>
-            <TextBox DockPanel.Dock="Bottom"></TextBox>
+            <TextBox Name="textName" Text="文本框可替换文字。。" DockPanel.Dock="Bottom"></TextBox>
         </DockPanel>
-        
+
     </Grid>
 </Window>

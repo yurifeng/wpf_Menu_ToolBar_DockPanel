@@ -1,0 +1,17 @@
+﻿<Window x:Class="yty_wpf_180509_02.about_windows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:yty_wpf_180509_02"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="关于" Height="300" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <DockPanel>
+            <TextBox Name="ab_textbox" Text="我的对话框" Height="20" Width="120"/>
+            <PasswordBox Name="pwdbox1" Height="20" Width="120" />
+        </DockPanel>
+
+    </Grid>
+</Window>

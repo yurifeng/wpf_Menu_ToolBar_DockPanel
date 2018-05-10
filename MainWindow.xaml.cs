@@ -25,6 +25,24 @@ namespace yty_wpf_180509_02
             InitializeComponent();
         }
 
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Close();
+        //}
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            string name = textName.Text;
+            about_windows abwin = new about_windows();
+            abwin.UserName=name;
+            abwin.ShowDialog();
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
         //private void MenuItem_Click(object sender, RoutedEventArgs e)
         //{
         //    Close();
