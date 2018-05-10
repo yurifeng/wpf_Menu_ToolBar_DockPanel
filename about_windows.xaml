@@ -6,11 +6,12 @@
         xmlns:local="clr-namespace:yty_wpf_180509_02"
         mc:Ignorable="d"
         Loaded="Window_Loaded"
+        Closed="Window_Closed"
         Title="关于" Height="300" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
     <Grid>
         <DockPanel>
             <TextBox Name="ab_textbox" Text="我的对话框" Height="20" Width="120"/>
-            <PasswordBox Name="pwdbox1" Height="20" Width="120" />
+            <PasswordBox Name="pwdbox1" Password="" Height="20" Width="120" />
         </DockPanel>
 
     </Grid>
